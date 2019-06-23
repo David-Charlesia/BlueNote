@@ -1,0 +1,50 @@
+#titre{
+  text-align: center;
+}
+
+#fond{
+  background-color: skyblue;
+}
+
+.navig {
+  border: 3px black dashed;
+}
+
+.navig ul{
+  border: 2px green dashed;
+  width: 1000px;
+  margin: auto;
+}
+
+.navig li{
+  display: table-cell;
+  width: 200px;
+  margin: auto;
+
+}
+
+
+
+
+
+
+.opacity-color div{
+background: #184a7d;
+}
+
+.imgpacc .alter1 {
+  float: left;
+}
+
+.imgpacc .alter2 {
+  float: right;
+}
+
+.imgpacc p {
+  clear: both
+}
+
+
+h3{
+  clear: both
+}

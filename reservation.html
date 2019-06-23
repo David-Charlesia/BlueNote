@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="reservation.css" media="all" />
+        <link rel="icon" type="image/png" href="img/Logo.png" />
+        <title>BlueNote - Music Bar</title>
+    </head>
+
+    <body>
+      <nav>
+        <ul>
+          <li><a href="BlueNote3.html">Accueil</a></li>
+          <li><a href="nos_plats.html">Nos Plats</a></li>
+          <li><a href="artistes.html">Artistes</a></li>
+          <li><a href="qui_sommes_nous.html">Qui sommes-nous ?</a></li>
+          <li><a href="reservation.html" title="Espace VIP">Réservation</a></li>
+          <li><a href="contact.html" title="Contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div id="spacenav">
+
+      </div>
+
+      <header>
+        <a id='logo' href="BlueNote3.html"title="Retour à la case départ !"><img src="img/Logo.png" alt="BlueNote"/></a>
+        <div id="message">
+          <h1 id='titre'>BlueNote - Music/Bar</h1>
+        </div>
+      </header>
+
+      <form id="reserv" action="index.html" method="post">
+        <fieldset>
+          <legend>Vos coordonnées :</legend> <!-- Titre du fieldset -->
+
+          <label for="nom">Quel est votre nom ?</label>
+          <input type="text" name="nom" id="nom" placeholder="Votre nom" required/>
+
+          <label for="prenom">Quel est votre prénom ?</label>
+          <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" required/>
+
+          <label for="email">Quel est votre e-mail ?</label>
+          <input type="email" name="email" id="email" placeholder="exemple@email.com" required/>
+
+          <label for="tel">Quel est votre numéro de téléphone ?</label>
+          <input type="tel" name="tel" value="" placeholder="0000-00-00-00">
+        </fieldset>
+
+        <fieldset>
+          <legend>La date et l'heure :</legend>
+
+          <label for="Date">Date :</label>
+          <input type="date" name="Date" value="" required>
+
+          <label for="Heure">Heure :</label>
+          <input type="time" name="Heure" value="">
+        </fieldset>
+      </form>
+
+
+      <div id="general_log">
+
+        <div class="preci_log">
+          <p>Vous avez déjà un compte, connectez vous !</p>
+          <form id="log" action="index.html" method="post">
+            <fieldset>
+              <legend>Identifiant et mot de passe :</legend>
+
+              <label for="email">Adresse mail :</label>
+              <input type="email" name="email" id="email" placeholder="exemple@email.com" required/>
+
+              <label for="password"></label>Mot de passe :</label>
+              <input type="password" name="password" value="" required placeholder="mot de passe">
+            </fieldset>
+          </form>
+        </div>
+
+        <div class="preci_log">
+          <p>Ou alors créer votre compte en 2 minutes !</p>
+          <form id="inscription" action="index.html" method="post">
+            <fieldset>
+              <legend>Créer un compte 1/2:</legend>
+
+              <label for="nom">Quel est votre nom ?</label>
+              <input type="text" name="nom" id="nom" placeholder="Votre nom" required/>
+
+              <label for="prenom">Quel est votre prénom ?</label>
+              <input type="text" name="prenom" id="prenom" placeholder="Votre prénom" required/>
+
+              <label for="tel">Quel est votre numéro de téléphone ?</label>
+              <input type="tel" name="tel" value="" placeholder="0000-00-00-00">
+            </fieldset>
+            <fieldset>
+              <legend>Créer un compte 2/2:</legend>
+              <label for="email">Adresse mail</label>
+              <input type="email" name="email" id="email" placeholder="exemple@email.com" required/>
+
+              <label for="password"></label>Mot de passe :</label>
+              <input type="password" name="password" value="" required placeholder="mot de passe">
+
+              <label for="password"></label>Réécrivez votre mot de passe :</label>
+              <input type="password" name="password" value="" required placeholder="mot de passe">
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
+      <footer>
+        <div class="lien">
+
+        </div>
+
+      </footer>
+
+    </body>

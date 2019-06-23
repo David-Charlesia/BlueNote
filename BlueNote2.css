@@ -1,0 +1,49 @@
+#fond{
+  background-color: skyblue;
+}
+
+
+#tête{
+  color: darkblue;
+  text-align: center;
+}
+
+#tête img{
+  float: left;
+}
+
+#tête .onglet{
+  max-width: 1500px;
+  min-width: 250px;
+  margin: auto;
+}
+
+#tête .log{
+  max-width: 1500px;
+  min-width: 250px;
+  float: right;
+}
+
+#tête li{
+  display: inline;
+  padding-right: 100px;
+}
+
+#tête p{
+  color: red;
+  font-style: italic;
+  font-weight: 200;
+}
+
+#tête a{
+  color: white;
+}
+
+#tête ul{
+  vertical-align: middle;
+}
+
+.navig{
+  padding-top: 25px;
+  background-color: #2F4F4F;
+}

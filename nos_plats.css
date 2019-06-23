@@ -1,0 +1,102 @@
+body {
+	background-color: rgb(48, 79, 130,0.8);
+ }
+ #un {
+ 	text-align: center;
+ 	font-family: Arial;
+ }
+ p {
+	font-size:1.25em;
+	text-align: center;
+}
+#bouton {
+	text-align: center;
+ 	border: 2px solid rgb(207, 210, 214);
+ 	background:rgb(229, 208, 181);
+ }
+ #bouton:hover {
+ 	color:white;
+ }
+ #image {
+ 	text-align: center;
+ }
+ #image img {
+ 	border: 3px solid rgb(207, 210, 214);
+ }
+
+
+
+
+
+
+
+
+ @font-face {
+     font-family: 'Titre_font';
+     src: url('polices/KaushanScript-Regular.otf');
+ }
+
+ @font-face {
+   font-family: 'Message_font'
+   src: url('polices/Quicksand_Dash.otf')
+ }
+
+
+
+ #navbar{
+   background-image: linear-gradient(#99ebff, #00a3cc);
+   position: fixed;
+   top: 0;
+   width: 100%;
+ }
+
+ #navbar ul{
+   display: flex;
+   flex-direction: row;
+   margin: auto;
+   padding: 0.7em;
+   justify-content:space-around;
+   list-style-type: none;
+ }
+
+ #navbar ul a{
+   color: white;
+   text-decoration: none;
+ }
+
+ #spacenav{
+   height: 2em;
+   width: 100%;
+ }
+
+ header{
+   height: 9.5em;
+   width: 100%;
+   background-image: url('img/J59.GIF');
+   background-size:contain;
+ }
+
+ #message{
+   display: flex;
+   flex-direction: column;
+ }
+
+ #logo {
+   float: left;
+   height: 9.3em;
+   background-color:rgba(47, 79, 79, 0.5);
+   backface-visibility: 60%;
+ }
+
+ #titre{
+   margin: auto;
+   color: rgba(204, 238, 255, 0.7);
+   font-family: Titre_font,fantasy;
+   font-size: 5em;
+
+ }
+
+ #logo img{
+   width: 9.375em;
+   height: 9.375em;
+ }

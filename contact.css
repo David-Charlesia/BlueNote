@@ -1,0 +1,99 @@
+body{
+	background-color: rgb(48, 79, 130,0.8);
+}
+
+section{
+	font-family: Arial;
+	text-align: left;
+	font-size:1.25em;
+}
+
+section div {
+	background-image: url("images/contact.jpg");
+}
+section h1 {
+	text-align: center;
+	border: 2px solid rgb(207, 210, 214);
+ 	background:rgb(229, 208, 181);
+ 	font-size: 1.75em;
+}
+section p{
+	font-size:1.25em;
+
+}
+section ul{
+	font-size:1.25em
+}
+section h2 {
+	font-size:1.50em
+}
+
+
+
+@font-face {
+    font-family: 'Titre_font';
+    src: url('polices/KaushanScript-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Message_font'
+  src: url('polices/Quicksand_Dash.otf')
+}
+
+nav{
+  background-image: linear-gradient(#99ebff, #00a3cc);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 0.7em;
+  justify-content:space-around;
+  list-style-type: none;
+}
+
+nav ul a{
+  color: white;
+  text-decoration: none;
+}
+
+#spacenav{
+  height: 2em;
+  width: 100%;
+}
+
+header{
+  height: 9.5em;
+  width: 100%;
+  background-image: url('img/J59.GIF');
+  background-size:contain;
+}
+
+#message{
+  display: flex;
+  flex-direction: column;
+}
+
+#logo {
+  float: left;
+  height: 9.3em;
+  background-color:rgba(47, 79, 79, 0.5);
+  backface-visibility: 60%;
+}
+
+#titre{
+  margin: auto;
+  color: rgba(204, 238, 255, 0.7);
+  font-family: Titre_font,fantasy;
+  font-size: 5em;
+
+}
+
+#logo img{
+  width: 9.375em;
+  height: 9.375em;
+}

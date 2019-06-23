@@ -1,0 +1,25 @@
+body { 
+	background-color: rgb(48, 79, 130,0.8);
+ }
+ #un {
+ 	text-align: center;
+ 	font-family: Arial;
+ }
+ p {
+	font-size:1.25em;
+	text-align: center;
+}
+#bouton {
+	text-align: center;
+ 	border: 2px solid rgb(207, 210, 214);
+ 	background:rgb(229, 208, 181);
+ }
+ #bouton:hover {
+ 	color:white;
+ }
+ #image {
+ 	text-align: center;
+ }
+ img {
+ 	border: 3px solid rgb(207, 210, 214);
+ }

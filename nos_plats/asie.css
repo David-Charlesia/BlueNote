@@ -1,0 +1,9 @@
+body {
+	background-color: rgb(48, 79, 130,0.8);
+	font-family: Arial;
+	font-size:1.25em;
+}
+h1{
+	border: 2px solid rgb(207, 210, 214);
+	background:rgb(229, 208, 181);
+}
